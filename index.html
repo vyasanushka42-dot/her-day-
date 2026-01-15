@@ -1,1 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Vanshika 🎂</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Global styles */
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: #4B3F72;
+    }
+    h1, h2 {
+      margin: 0;
+      text-align: center;
+      font-weight: 700;
+    }
+    h1 {
+      font-size: 3em;
+      font-family: 'Parisienne', cursive;
+    }
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2em;
+      box-sizing: border-box;
+      scroll-snap-align: start;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 25px;
+      font-size: 1em;
+      border: none;
+      border-radius: 25px;
+      background-color: #FADADD;
+      color: #4B3F72;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #F8BBD0;
+    }
+    /* Decorative backgrounds */
+    #page1 {
+      background: linear-gradient(135deg, #FFC0CB, #FFE4E1);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #fff;
+    }
+    @keyframes gradientBG {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+    }
+    #page2, #page3, #page4, #page5, #page6, #page7, #page8 {
+      background: #FFE4E1;
+    }
+    .content {
+      max-width: 800px;
+      text-align: center;
+      font-size: 1.2em;
+      line-height: 1.6em;
+    }
+    /* Emojis floating animation */
+    .emoji {
+      display: inline-block;
+      animation: float 3s ease-in-out infinite alternate;
+    }
+    @keyframes float {
+      0% {transform: translateY(0);}
+      100% {transform: translateY(-15px);}
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      h1 {font-size: 2.2em;}
+      .content {font-size: 1em;}
+      button {font-size: 0.9em;}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background music -->
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Page 1: Welcome -->
+  <section id="page1">
+    <h1>Happy Birthday, Vanshika 🎂</h1>
+    <p class="content">This is your day, enjoy it 💖</p>
+    <button onclick="document.getElementById('page2').scrollIntoView({behavior:'smooth'})">Next →</button>
+  </section>
+
+  <!-- Page 2: Why You Matter -->
+  <section id="page2">
+    <h2>You Mean More Than You Know 💕</h2>
+    <p class="content">
+      This is your day, enjoy it. I know that you are the best for me, you are the best for everyone.<br>
+      Okay, yeah, I know it's a bit late, bit late, sorry, a bit late to make this thing, but I was working on this thing from a month and now it is here.<br>
+      So happy birthday to my best friend, to my comfort, to my everything.<br>
+      I don't know that if you see me as how I see you, but I see you so, so, so best.<br>
+      I don't know that how much you love me, but I love you more than you know.<br>
+      And thank you so much for being with me every time. For understanding me every time.
+    </p>
+    <button onclick="document.getElementById('page3').scrollIntoView({behavior:'smooth'})">Next →</button>
+  </section>
+
+  <!-- Page 3: Our Story / Memories -->
+  <section id="page3">
+    <h2>Our Memories 🌸</h2>
+    <p class="content">
+      You are with me every time 🌸<br>
+      You make me laugh even when I don’t want to 😆<br>
+      You listen to me even when I’m quiet 🫂<br>
+      You are my comfort when I’m lost 🌙<br>
+      You make ordinary days feel special 💖
+    </p>
+    <button onclick="document.getElementById('page4').scrollIntoView({behavior:'smooth'})">Next →</button>
+  </section>
+
+  <!-- Page 4: Things I Never Said -->
+  <section id="page4">
+    <h2>Things I Never Said 💌</h2>
+    <p class="content">
+      I never told you how much your smile brightens my darkest days. 🌸<br>
+      I never told you that your patience with me means the world. 🫂<br>
+      I never told you that your laughter is my favorite sound. 😆<br>
+      I never told you how much I admire your strength. 💪<br>
+      I never told you how much your words comfort me. 💖<br>
+      I never told you that I think about you always. 🌙<br>
+      I never told you that your kindness inspires me. ✨<br>
+      I never told you how much I cherish every moment with you. 🌸<br>
+      I never told you that you make me feel safe. 🏡<br>
+      I never told you how proud I am of you. 💕<br>
+      I never told you that even your small gestures mean so much. 🫂<br>
+      I never told you how grateful I am for your friendship. 💖<br>
+      I never told you that I love how you always understand me. 🌙<br>
+      I never told you that I hope to always make you happy. ✨<br>
+      I never told you that you are irreplaceable to me. 💖<br>
+      I never told you that I see you as my safe place. 🏡<br>
+      I never told you that I will always cherish our memories. 🌸<br>
+      I never told you that you are my inspiration. 💫<br>
+      I never told you that I love you more than words can say. 💖
+    </p>
+    <button onclick="document.getElementById('page5').scrollIntoView({behavior:'smooth'})">Next →</button>
+  </section>
+
+  <!-- Page 5: Letter -->
+  <section id="page5">
+    <h2>Dear Vanshika 💌</h2>
+    <p class="content">
+      Vanshika, my dearest best friend, you have been my sunshine on the darkest days and my safe haven when the world felt heavy.  
+      Every laugh, every tear, every silly moment we shared has made me treasure you even more. I want you to know that you are the most important person in my life and I am endlessly grateful for your love, care, and presence.  
+      You understand me in ways nobody else ever could. You make me feel seen, valued, and loved.  
+      I hope you know that I am here for you, always, through every high and every low.  
+      Happy Birthday to you, my comfort, my laughter, my everything. I love you beyond words, Vanshika. 💖
+    </p>
+    <button onclick="document.getElementById('page6').scrollIntoView({behavior:'smooth'})">Next →</button>
+  </section>
+
+  <!-- Page 6: Promise -->
+  <section id="page6">
+    <h2>My Promise to You 🌟</h2>
+    <p class="content">
+      I promise to always be there when you need me. 🫂<br>
+      I promise to make you smile when you are sad. 🌸<br>
+      I promise to celebrate your victories, big or small. 🎉<br>
+      I promise to listen when you need to speak. 💖<br>
+      I promise to never take our friendship for granted. 🌙<br>
+      I promise to love and support you always. 💕
+    </p>
+    <button onclick="document.getElementById('page7').scrollIntoView({behavior:'smooth'})">Next →</button>
+  </section>
+
+  <!-- Page 7: Forever / Ending -->
+  <section id="page7">
+    <h2>Forever ♾️</h2>
+    <p class="content">
+      You’re not alone. You never were.  
+      Happy Birthday, Vanshika. 💖💌
+    </p>
+    <button onclick="document.getElementById('page8').scrollIntoView({behavior:'smooth'})">Next →</button>
+  </section>
+
+  <!-- Page 8: 100 Reasons I Love You -->
+  <section id="page8">
+    <h2>100 Reasons I Love You 💖</h2>
+    <p class="content">
+      1. You make me smile 🌸<br>
+      2. You listen to me 🫂<br>
+      3. You make me laugh 😆<br>
+      4. You understand me 🌙<br>
+      5. You are kind 💖<br>
+      6. You inspire me ✨<br>
+      7. You are patient 🫂<br>
+      8. You celebrate my wins 🎉<br>
+      9. You support me 💕<br>
+      10. You are thoughtful 🌸<br>
+      11. You are my comfort 🏡<br>
+      12. You care deeply 💖<br>
+      13. You are loyal ✨<br>
+      14. You make life brighter 🌟<br>
+      15. You are my safe place 🫂<br>
+      16. You are funny 😆<br>
+      17. You are my inspiration 💫<br>
+      18. You are my family 🌸<br>
+      19. You are honest 💖<br>
+      20. You are beautiful inside and out 🌟<br>
+      <!-- You can continue the same pattern up to 100 reasons -->
+      21. …<br>
+      22. …<br>
+      23. …<br>
+      24. …<br>
+      25. …<br>
+      26. …<br>
+      27. …<br>
+      28. …<br>
+      29. …<br>
+      30. …<br>
+      31. …<br>
+      32. …<br>
+      33. …<br>
+      34. …<br>
+      35. …<br>
+      36. …<br>
+      37. …<br>
+      38. …<br>
+      39. …<br>
+      40. …<br>
+      41. …<br>
+      42. …<br>
+      43. …<br>
+      44. …<br>
+      45. …<br>
+      46. …<br>
+      47. …<br>
+      48. …<br>
+      49. …<br>
+      50. …<br>
+      51. …<br>
+      52. …<br>
+      53. …<br>
+      54. …<br>
+      55. …<br>
+      56. …<br>
+      57. …<br>
+      58. …<br>
+      59. …<br>
+      60. …<br>
+      61. …<br>
+      62. …<br>
+      63. …<br>
+      64. …<br>
+      65. …<br>
+      66. …<br>
+      67. …<br>
+      68. …<br>
+      69. …<br>
+      70. …<br>
+      71. …<br>
+      72. …<br>
+      73. …<br>
+      74. …<br>
+      75. …<br>
+      76. …<br>
+      77. …<br>
+      78. …<br>
+      79. …<br>
+      80. …<br>
+      81. …<br>
+      82. …<br>
+      83. …<br>
+      84. …<br>
+      85. …<br>
+      86. …<br>
+      87. …<br>
+      88. …<br>
+      89. …<br>
+      90. …<br>
+      91. …<br>
+      92. …<br>
+      93. …<br>
+      94. …<br>
+      95. …<br>
+      96. …<br>
+      97. …<br>
+      98. …<br>
+      99. …<br>
+      100. Because you are simply the best 💖
+    </p>
+    <button onclick="document.getElementById('page1').scrollIntoView({behavior:'smooth'})">Back to Top ↺</button>
+  </section>
+
+</body>
+</html>
 
